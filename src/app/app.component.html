@@ -1,0 +1,19 @@
+<h2>{{text | uppercase}}</h2>
+<h2>{{text}}</h2>
+<h2>{{text | lowercase}}</h2>
+
+<h2>{{age | percent}}</h2>
+
+<h2>{{currency | currency:'LKR'}}</h2>
+<h2>{{currency | currency:'INR'}}</h2>
+
+
+<h2>Enter the number: </h2>
+<input type="number" [(ngModel)]="number">
+
+
+<h2>Enter the exponent value: </h2>
+<input type="number" [(ngModel)]="exponent">
+
+
+<h2>The chained hero's birthday is {{ birthday | date | uppercase}}</h2>
